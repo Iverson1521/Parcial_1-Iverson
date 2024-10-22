@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #333333;
+}
+
+.color4{
+    color: #CFB53B;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1 {
+    margin: 0;
+    color: #CFB53B;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #CFB53B;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: white;
+}
+nav ul li a {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+main {
+    padding: 20px;
+    background-color: none;
+}
+.video-container {
+    display: flex; /* Usar Flexbox para organizar los videos */
+    flex-wrap: wrap; /* Permite que los videos se ajusten a múltiples líneas */
+    justify-content: center; /* Centra los videos */
+    gap: 20px; /* Espacio entre videos */
+}
+.video-box {
+    border: 2px solid #ccc; /* Bordes del cuadro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+video {
+    width: 500px; /* Ancho del video */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+h2 {
+    text-align: center; /* Centra el título */
+}
